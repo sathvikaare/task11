@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task11</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        
+        table,td,tr{
+            border: 1px solid;
+            border-collapse: collapse;
+            text-align: center;
+            margin: 0 auto;
+           font-size: 20px;
+            
+        }
+        .class1,.class2{
+            background-color: blue;
+        }
+        td,th{
+            height: 130px;
+            width: 130px;
+        }
+        #col1{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <th colspan="6" style="font-size: 50px;background-color: aquamarine;">colors</th>
+        
+        <tr>
+            <td rowspan="2" style="background-color: red;">red</td>
+            <td style="background-color: yellow;">yellow</td>
+            <td style="background-color: brown;">brown</td>
+            <td class="class1">blue</td>
+            <td colspan="2" style="background-color: violet;">violet</td>
+            <!--<td style="background-color: indigo;">indigo</td>-->
+        </tr>
+        <tr>
+            <!--<td style="background-color: pink;">pink</td>-->
+            <td style="background-color: orange;">orange</td>
+            <td rowspan="2" style="background-color: grey;">grey</td>
+            <td style="background-color: purple;">purple</td>
+            <td style="background-color: yellow;">yellow</td>
+            <td style="background-color: green;">green</td>
+        </tr>
+        <tr>
+            <td id="col1">green</td>
+            <td style="background-color: pink;">pink</td>
+            <!--<td style="background-color: grey;">grey</td>-->
+            <td style="background-color: brown;">brown</td>
+            <td class="class1">blue</td>
+            <td rowspan="2" style="background-color: purple;">purple</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: indigo;">indigo</td>
+            <!--<td style="background-color: yellow;">yellow</td>-->
+            <td class="class2">blue</td>
+            <td style="background-color: orange;">orange</td>
+            <td style="background-color: green;">green</td>
+            <!--<td style="background-color: violet;">violet</td>-->
+        </tr>
+    </table>
+    
+</body>
+</html>
